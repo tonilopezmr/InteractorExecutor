@@ -1,12 +1,13 @@
 # InteractorExecutor
 Small Android library for use the Interactor(use case) and Executor for running code on a Thread Pool Thread or UI Thread. Normally this library is used for implement the Clean Architecture.
 
+For learn how to use this library read this [awesome article][2] and see the sample code.
+
 Import EasySQLite dependency:
 -----------------------------
 
 Waiting maven central ticket...
 
-For learn how to use this library read this [awesome article][2] and see the sample code.
 
 Sample Clean architecture
 -------------------------
@@ -27,7 +28,6 @@ If anything is wrong contact me
   <img alt="Add me to Linkedin" src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_black-128.png" width="60" height="60"/>
 </a>
 
-######Sorry for my English :(
 
 License
 -------
