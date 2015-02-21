@@ -2,11 +2,11 @@ package com.tonilopezmr.sample.domain.interactor;
 
 import android.util.Log;
 
+import com.tonilopezmr.interactorexecutor.Executor;
+import com.tonilopezmr.interactorexecutor.MainThread;
 import com.tonilopezmr.sample.domain.Subject;
 import com.tonilopezmr.sample.domain.exception.SubjectException;
 import com.tonilopezmr.sample.domain.repository.SubjectRepository;
-import com.tonilopezmr.sample.executor.Executor;
-import com.tonilopezmr.sample.executor.MainThread;
 
 import java.util.Collection;
 

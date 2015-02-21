@@ -1,8 +1,8 @@
 package com.tonilopezmr.sample.domain.interactor;
 
+import com.tonilopezmr.interactorexecutor.Executor;
+import com.tonilopezmr.interactorexecutor.MainThread;
 import com.tonilopezmr.sample.domain.repository.SubjectRepository;
-import com.tonilopezmr.sample.executor.Executor;
-import com.tonilopezmr.sample.executor.MainThread;
 
 /**
  * @author toni.

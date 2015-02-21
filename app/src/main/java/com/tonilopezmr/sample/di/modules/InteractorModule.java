@@ -1,13 +1,13 @@
 package com.tonilopezmr.sample.di.modules;
 
+import com.tonilopezmr.interactorexecutor.Executor;
+import com.tonilopezmr.interactorexecutor.MainThread;
 import com.tonilopezmr.sample.domain.interactor.DeleteSubjectUseCaseImp;
 import com.tonilopezmr.sample.domain.interactor.SubjectUseCase;
 import com.tonilopezmr.sample.domain.interactor.CreateSubjectUseCaseImp;
 import com.tonilopezmr.sample.domain.interactor.GetSubjectListUseCase;
 import com.tonilopezmr.sample.domain.interactor.GetSubjectListUseCaseImp;
 import com.tonilopezmr.sample.domain.repository.SubjectRepository;
-import com.tonilopezmr.sample.executor.Executor;
-import com.tonilopezmr.sample.executor.MainThread;
 
 import javax.inject.Named;
 

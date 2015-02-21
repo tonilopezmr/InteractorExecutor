@@ -1,8 +1,8 @@
 package com.tonilopezmr.sample.domain.interactor;
 
+import com.tonilopezmr.interactorexecutor.Interactor;
 import com.tonilopezmr.sample.domain.Subject;
 import com.tonilopezmr.sample.domain.exception.SubjectException;
-import com.tonilopezmr.sample.executor.Interactor;
 
 import java.util.Collection;
 

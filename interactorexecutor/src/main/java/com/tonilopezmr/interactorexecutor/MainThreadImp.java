@@ -20,7 +20,7 @@ import android.os.Looper;
 
 /**
  * {@link MainThread} implementation. Will make
- * interactor Callbacks able to get executed in the Android UI thread*
+ * interactor Callbacks able to get executed in the Android UI thread
  *
  *
  * @author Antonio López

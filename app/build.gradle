@@ -17,6 +17,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    packagingOptions {
+        exclude 'META-INF/services/javax.annotation.processing.Processor'
+    }
 }
 
 dependencies {
@@ -28,4 +32,7 @@ dependencies {
     compile 'com.squareup.dagger:dagger:1.2.2'
     compile 'com.jakewharton:butterknife:6.1.0'
     compile 'com.github.navasmdc:MaterialDesign:1.+@aar'
+
+    compile 'com.github.tonilopezmr:easysqlite:2.0.0'
+    compile project(':interactorexecutor')
 }

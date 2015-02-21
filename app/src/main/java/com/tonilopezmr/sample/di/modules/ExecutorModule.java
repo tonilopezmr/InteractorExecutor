@@ -1,9 +1,9 @@
 package com.tonilopezmr.sample.di.modules;
 
-import com.tonilopezmr.sample.executor.Executor;
-import com.tonilopezmr.sample.executor.MainThread;
-import com.tonilopezmr.sample.executor.MainThreadImp;
-import com.tonilopezmr.sample.executor.ThreadExecutor;
+import com.tonilopezmr.interactorexecutor.Executor;
+import com.tonilopezmr.interactorexecutor.MainThread;
+import com.tonilopezmr.interactorexecutor.MainThreadImp;
+import com.tonilopezmr.interactorexecutor.ThreadExecutor;
 
 import javax.inject.Singleton;
 
