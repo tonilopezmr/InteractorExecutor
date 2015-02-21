@@ -81,6 +81,5 @@ public class SubjectDataRepository implements SubjectRepository {
 
         Object[] objects = {3,4,"Oops :(",5,4,"Error :D", 4, 8};
         int i = Integer.valueOf(objects[random.nextInt(7+1)].toString());
-        int j = Integer.valueOf("");
     }
 }
