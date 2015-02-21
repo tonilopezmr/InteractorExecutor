@@ -18,6 +18,7 @@ public class CreateSubjectUseCaseImp extends AbstractSubjectUseCase implements S
         super(executor, mainThread, subjectRepository);
     }
 
+    //Run interactor
     @Override
     public void execute(Subject subject, final Callback callback) {
         if (callback == null){

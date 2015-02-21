@@ -33,7 +33,7 @@ public class SQLiteManager {
 
     public static SQLiteDatabase getDataBase(Context context){
         if (dataBase == null){
-            //Create the SQLiteOpenHelper
+            //Create the SQLiteOpenHelper with the default name
             SQLiteHelper conex = SQLiteHelper.builder()
                     .beginConfig()
                         .onCreateCallback(onCreateCallback)
