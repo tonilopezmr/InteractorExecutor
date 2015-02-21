@@ -15,9 +15,11 @@
  */
 package com.tonilopezmr.interactorexecutor;
 
+
 /**
- * Abstraction used to allow interactor callbacks to be executed in the main UI thread.
+ * UI thread abstraction created to change the execution context from any thread to the UI thread.
  *
+ * Documented by Pedro Vicente Gómez Sánchez.
  *
  * @author Antonio López
  */

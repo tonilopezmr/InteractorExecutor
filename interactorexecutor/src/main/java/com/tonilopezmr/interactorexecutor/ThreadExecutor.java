@@ -21,9 +21,15 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Interactor dispatcher. Contains the initial executor setup.
- * Using {@link java.util.concurrent.ThreadPoolExecutor} as the executor implementation.
+ * Executor implementation based on ThreadPoolExecutor. ThreadPoolExecutorConfig:
  *
+ * Core pool size: 3.
+ * Max pool size: 5.
+ * Keep alive time: 120.
+ * Time unit: seconds.
+ * Work queue: LinkedBlockingQueue.
+ *
+ * Documented by Pedro Vicente Gómez Sánchez.
  *
  * @author Antonio López
  */
@@ -42,6 +48,15 @@ public class ThreadExecutor implements Executor{
         int maxPoolSize = MAX_POOL_SIZE;
         int keepAliveTime = KEEP_ALIVE_TIME;
         TimeUnit timeUnit = TIME_UNIT;
+        BlockingQueue<Runnable> workQueue = WORK_QUEUE;
+
+        threadPoolexecutor =
+                new ThreadPoolExecutor(corePoolSize, maxPoolSize, keepAliveTime, timeUnit, workQueue);
+    }
+
+    public ThreadExecutor(final int corePoolSize, final int maxPoolSize,
+                          final int keepAliveTime, final TimeUnit timeUnit) {
+
         BlockingQueue<Runnable> workQueue = WORK_QUEUE;
 
         threadPoolexecutor =

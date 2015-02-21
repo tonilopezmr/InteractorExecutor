@@ -18,10 +18,12 @@ package com.tonilopezmr.interactorexecutor;
 import android.os.Handler;
 import android.os.Looper;
 
-/**
- * {@link MainThread} implementation. Will make
- * interactor Callbacks able to get executed in the Android UI thread
+
+ /**
+ * {@link MainThread} implementation based on a Handler instantiated over
+ * the main looper obtained from Looper class.
  *
+ * Documented by Pedro Vicente Gómez Sánchez.
  *
  * @author Antonio López
  */

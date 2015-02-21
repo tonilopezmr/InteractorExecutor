@@ -29,6 +29,7 @@ public class GetSubjectListUseCaseImp implements GetSubjectListUseCase{
         this.mainThread = mainThread;
     }
 
+    //Run interactor
     @Override
     public void execute(final Callback callback) {
         if (callback == null) {
