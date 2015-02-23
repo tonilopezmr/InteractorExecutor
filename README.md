@@ -3,10 +3,24 @@ Small Android library for use the Interactor(use case) and Executor for running 
 
 For learn how to use this library read this [awesome article][2] and see the sample code.
 
-Import EasySQLite dependency:
+Import InteractorExecutor dependency:
 -----------------------------
 
-Waiting maven central ticket...
+Grab via maven:
+
+```xml
+<dependency>
+  <groupId>com.github.tonilopezmr</groupId>
+  <artifactId>interactorexecutor</artifactId>
+  <version>1.0</version>
+</dependency>
+```
+
+or gradle:
+
+```gradle
+compile 'com.github.tonilopezmr:interactorexecutor:1.0'
+````
 
 
 Sample Clean architecture
