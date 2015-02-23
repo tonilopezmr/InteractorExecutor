@@ -1,4 +1,4 @@
-# InteractorExecutor
+# InteractorExecutor [![Build Status](https://travis-ci.org/tonilopezmr/InteractorExecutor.svg?branch=master)](https://travis-ci.org/tonilopezmr/InteractorExecutor)
 Small Android library for use the Interactor(use case) and Executor for running code on a Thread Pool Thread or UI Thread. Normally this library is used for implement the Clean Architecture.
 
 For learn how to use this library read this [awesome article][2] and see the sample code.
