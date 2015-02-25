@@ -27,7 +27,7 @@ Sample Clean architecture
 -------------------------
 The code which uses this library is in the package `'com.tonilopezmr.sample.domain.interactor'`.
 
-The sample code is the same that my other library [Android EasySQLite][1].
+The sample code is the sames as my other library [Android EasySQLite][1].
 
 
 If anything is wrong contact me
