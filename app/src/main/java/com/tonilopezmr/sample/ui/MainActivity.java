@@ -27,11 +27,14 @@ import com.tonilopezmr.sample.ui.viewmodel.SubjectViewModelImp;
 import java.util.Collection;
 import java.util.List;
 
+import javax.inject.Inject;
+
 import butterknife.ButterKnife;
 import butterknife.InjectView;
 
 public class MainActivity extends BaseActivity implements SubjectListView {
 
+    @Inject
     MainPresenter presenter;
 
     @InjectView(R.id.my_recycler_view)
@@ -58,7 +61,7 @@ public class MainActivity extends BaseActivity implements SubjectListView {
     }
 
     private void init(){
-        presenter = new SubjectListPresenterImp(this);
+        presenter.setView(this);
 
         floatingButton.setOnClickListener(new android.view.View.OnClickListener() {
             @Override

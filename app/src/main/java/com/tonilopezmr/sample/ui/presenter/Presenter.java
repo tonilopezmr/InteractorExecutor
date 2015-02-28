@@ -6,6 +6,4 @@ package com.tonilopezmr.sample.ui.presenter;
 public interface Presenter {
 
     public void onInit();
-
-    public void onViewDestroy();
 }
