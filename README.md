@@ -2,7 +2,7 @@
 
 InteractorExecutor is a small Android library using the Interactor(use case) and Executor for running code on a Thread Pool Thread or UI Thread. Normally this library is used for implement the Clean Architecture.
 
-For learn how to use this library read this [awesome article][2] and see the sample code.
+For learn how to use this library read this [awesome article][12] and see the sample code.
 
 
 
@@ -30,7 +30,7 @@ Sample Clean architecture
 -------------------------
 The code which uses this library is in the package `'com.tonilopezmr.sample.domain.interactor'`.
 
-The sample code is the sames as my other library [Android EasySQLite][1].
+The sample code is the sames as my other library [Android EasySQLite][11].
 
 I use the Clean architecture with the pattern MVP, I have been motivated for the speaker [pedrovgs][10] in DroidCon 2014.
 
@@ -78,5 +78,16 @@ License
     See the License for the specific language governing permissions and
     limitations under the License.
 
-[1]: https://github.com/tonilopezmr/Android-EasySQLite
-[2]: http://fernandocejas.com/2014/09/03/architecting-android-the-clean-way/
+
+[1]: https://github.com/square/dagger
+[2]: https://github.com/JakeWharton/butterknife
+[3]: https://github.com/makovkastar/FloatingActionButton
+[4]: https://github.com/pedrovgs
+[5]: https://github.com/glomadrian
+[6]: https://github.com/glomadrian/MvpCleanArchitecture
+[7]: https://github.com/pedrovgs/EffectiveAndroidUI
+[8]: https://github.com/android10/Android-CleanArchitecture
+[9]: https://github.com/android10
+[10]: http://www.slideshare.net/PedroVicenteGmezSnch/effective-android-ui-english
+[11]: https://github.com/tonilopezmr/Android-EasySQLite
+[12]: http://fernandocejas.com/2014/09/03/architecting-android-the-clean-way/
