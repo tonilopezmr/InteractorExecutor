@@ -4,6 +4,8 @@ InteractorExecutor is a small Android library using the Interactor(use case) and
 
 For learn how to use this library read this [awesome article][2] and see the sample code.
 
+
+
 Import InteractorExecutor dependency:
 -----------------------------
 
@@ -30,6 +32,21 @@ The code which uses this library is in the package `'com.tonilopezmr.sample.doma
 
 The sample code is the sames as my other library [Android EasySQLite][1].
 
+I use the Clean architecture with the pattern MVP, I have been motivated for the speaker [pedrovgs][10] in DroidCon 2014.
+
+After see the MVP implementations of:
+
+* [MVPCleanArchitecture][6] by [glmoadrian][5]
+* [EffectiveAndroidUI][7] by [pedrovgs][4]
+* [Android-CleanArchitecture][8] by [android10][9] 
+
+
+Libraries used on the sample project
+------------------------------------
+
+* [Dagger][1]
+* [Butterknife][2]
+* [FloatingActionButton][3]
 
 If anything is wrong contact me
 -------------------------------------------
