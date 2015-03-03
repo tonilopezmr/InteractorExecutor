@@ -3,7 +3,6 @@
 InteractorExecutor is a small Android library using the Interactor(use case) and Executor for running code on a Thread Pool Thread or UI Thread. Normally this library is used for implement the Clean Architecture.
 
 For learn how to use this library read this [awesome article][12] and see the sample code.
-The comments on this library has been wrote by [pedrovgs][10].
 
 Import InteractorExecutor dependency:
 -----------------------------
