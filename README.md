@@ -28,7 +28,7 @@ Sample Clean architecture
 -------------------------
 The code which uses this library is in the package `'com.tonilopezmr.sample.domain.interactor'`.
 
-The sample code is the sames as my other library [Android EasySQLite][11].
+The sample code is the same as my other library [Android EasySQLite][11].
 
 I use the Clean architecture with the pattern MVP, I have been motivated for the speaker [pedrovgs][10] in DroidCon 2014.
 
