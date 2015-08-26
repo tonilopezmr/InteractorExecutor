@@ -13,30 +13,32 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.tonilopezmr.interactorexecutor;
+package com.tonilopezmr.sample.ui.executor;
 
 import android.os.Handler;
 import android.os.Looper;
 
+import com.tonilopezmr.interactorexecutor.MainThread;
 
- /**
- * {@link MainThread} implementation based on a Handler instantiated over
- * the main looper obtained from Looper class.
- *
- * Documented by Pedro Vicente Gómez Sánchez.
- *
- * @author Antonio López
- */
+
+/**
+* {@link MainThread} implementation based on a Handler instantiated over
+* the main looper obtained from Looper class.
+*
+* Documented by Pedro Vicente Gómez Sánchez.
+*
+* @author Antonio López
+*/
 public class MainThreadImp implements MainThread {
 
-    private Handler handler;
+   private Handler handler;
 
-    public MainThreadImp() {
-        this.handler = new Handler(Looper.getMainLooper());
-    }
+   public MainThreadImp() {
+       this.handler = new Handler(Looper.getMainLooper());
+   }
 
-    @Override
-    public void post(Runnable runnable) {
-        handler.post(runnable);
-    }
+   @Override
+   public void post(Runnable runnable) {
+       handler.post(runnable);
+   }
 }
