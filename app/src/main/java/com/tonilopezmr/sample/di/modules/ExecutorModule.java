@@ -3,7 +3,7 @@ package com.tonilopezmr.sample.di.modules;
 import com.tonilopezmr.interactorexecutor.Executor;
 import com.tonilopezmr.interactorexecutor.MainThread;
 import com.tonilopezmr.interactorexecutor.ThreadExecutor;
-import com.tonilopezmr.sample.ui.executor.MainThreadImp;
+import com.tonilopezmr.sample.domain.executor.MainThreadImp;
 
 import javax.inject.Singleton;
 
