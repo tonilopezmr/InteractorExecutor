@@ -1,6 +1,9 @@
 # InteractorExecutor [![Build Status](https://travis-ci.org/tonilopezmr/InteractorExecutor.svg?branch=master)](https://travis-ci.org/tonilopezmr/InteractorExecutor) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.tonilopezmr/interactorexecutor/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.tonilopezmr/interactorexecutor) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-InteractorExecutor-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/1591)
 
-InteractorExecutor is a small Android library using the Interactor(use case) and Executor for running code on a Thread Pool Thread or UI Thread. Normally this library is used for implement the Clean Architecture.
+InteractorExecutor is a small Java library using the Interactor(use case) and Executor for running code on a Thread Pool Thread or UI Thread. Normally this library is used for implement the Clean Architecture.
+
+For version 2:
+  Now the library is NOT Android, You should implement the MainThreadImp in your application.
 
 For learn how to use this library read this [awesome article][12] and see the sample code.
 
@@ -13,14 +16,14 @@ Grab via maven:
 <dependency>
   <groupId>com.github.tonilopezmr</groupId>
   <artifactId>interactorexecutor</artifactId>
-  <version>1.0</version>
+  <version>2.0</version>
 </dependency>
 ```
 
 or gradle:
 
 ```gradle
-compile 'com.github.tonilopezmr:interactorexecutor:1.0'
+compile 'com.github.tonilopezmr:interactorexecutor:2.0'
 ````
 
 
